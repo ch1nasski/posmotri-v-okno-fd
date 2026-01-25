@@ -138,10 +138,6 @@ ol {
   flex-shrink: 0;
 }
 
-.content__video-card-description-container {
-  flex-grow: 1;
-}
-
 .search-form__fieldset-title {
   font-weight: 400;
   font-size: 18px;
@@ -177,6 +173,16 @@ ol {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin: 0;
+}
+
+.content__video-card-description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  min-width: 0; 
+  flex-grow: 1;
 }
 
 .content__video-card-description {
