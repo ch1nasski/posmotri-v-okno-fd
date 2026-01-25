@@ -93,6 +93,7 @@ ol {
   flex-direction: column;
   flex-grow: 1;
   height: 100%;
+  width: 399px;
   gap: 26px;
 }
 
@@ -165,6 +166,7 @@ ol {
 }
 
 .content__video-card-title {
+  max-width: 100%;
   font-weight: 700;
   font-size: 30px;
   line-height: 30px;
@@ -180,7 +182,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  min-width: 0; 
+  min-width: 0;
   flex-grow: 1;
 }
 
@@ -347,4 +349,3 @@ ol {
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
 }
-
